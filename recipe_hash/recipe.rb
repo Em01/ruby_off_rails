@@ -13,6 +13,6 @@ recipe[:ingredients].each do |key, value|
 end
 
 puts "\nMethod"
-recipe[:method].each do |step|
-	puts step
+recipe[:method].each_with_index do |step, index|
+	puts "#{index}, #{step}"
 end
