@@ -11,4 +11,8 @@ describe Furlong do
 	it 'converts a marathon: 26.219 miles to 42.194988 km' do 
 		expect(calculator.miles_to_kilometers(26.219)).to be_within(0.001).of(42.194988)
 	end
+
+	it 'converts 1 furlong to 0.125 miles' do 
+		expect(calculator.furlongs_to_kilometers(1)).to be_within(0.001).of(0.2011168)
+	end
 end
