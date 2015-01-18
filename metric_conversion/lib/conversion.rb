@@ -4,4 +4,6 @@ class Furlong
 	def miles_to_kilometers(miles)
 		miles * KM_PER_MILE
 	end
+
+	
 end
