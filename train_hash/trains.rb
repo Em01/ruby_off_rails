@@ -7,8 +7,6 @@ train[:caboose] = 1
 passenger = {}
 passenger[:name] = "Emma"
 
-
-
 Station = Struct.new(:train, :instructions)
 station = Station.new
 station.train = train
