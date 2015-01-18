@@ -7,6 +7,9 @@ class Student
 		@grade = grade
 	end
 
+	#if it were a struct the above would be 
+	#Student = Struct.new(:first_name, :last_name, :grade) do
+
 	def senior?
 		grade == 12
 	end
